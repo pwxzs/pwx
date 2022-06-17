@@ -1,0 +1,247 @@
+@charset "utf-8";
+/* CSS Document */
+ul,li,h1,h2,h3,p{ padding:0; 
+	           margin:0; 
+	         list-style:none;
+	         color:#2347bb;}
+
+a{ text-decoration:none; color:orange;}
+
+html{ }
+body{background:url(../images/beijing.jpg)no-repeat top #1E1212;
+	 background-position: top;
+	 background-size:contain ;
+	 width:1000px;
+	 margin:0 auto; 
+	 line-height:21px;
+	font-weight: 700;}
+
+.clear{ clear:both}
+
+.menu li{ list-style:none; 
+	      font-weight:bold; 
+	      text-decoration:none;
+		}
+.menu ul li a:hover{
+	background: #2347bb;
+	transition: .5s;
+}
+.logo{ position:absolute; 
+	   top:50px; 
+	   width:250px; 
+	   height:100px; 
+	   margin-left:40px;}
+
+.banner{ position:relative; height:400px;}
+
+.menu{ width:100%; 
+	   text-align:center;
+	   float:left; 
+	   background:url(../images/menu.jpg);}
+
+.menu li a{ background:#000; 
+	border:#fff solid 1px; 
+	padding:5px;
+	color: #ffd700;}
+
+.menu li {  float:left; 
+	padding:15px 30px ; 
+	width:100px;}
+
+.right{ float:right;
+           width:460px; 
+           padding:20px;}
+
+.left{  min-height:250px; 
+         float:left; 
+        width:460px; 
+        padding:20px;}
+
+.content{		 background-color: beige; 
+		  font-size:14px; 
+		  display:inline-block ; 
+		  width:100%;}
+
+.pics li{ float:left;}
+
+.end{ clear:both; 
+	  background:#603; 
+	  color:#fff; 
+      padding:30px 0; 
+	  text-align:center;}
+
+.produce img{  margin:0 20px 20px 0;}
+
+.produce {}
+.pad{ padding:20px;
+	  display:block;
+	 background-color:gainsboro;}
+
+.pics p{ margin:2px;
+	     text-align:center;}
+
+.mar{ margin:5px 0;}
+
+.imglist{ width:840px;
+		  margin:0 auto;}
+
+.imglist li{ float:left; 
+			 width:400px; 
+			 margin:10px ; 
+	text-align:center;}
+
+.scrollleft{ margin:0 30px;}
+
+.news li{ padding:5px;}
+
+.title{ text-align:center; 
+		color:#F00; 
+		padding:10px;}
+
+.fl{ float:left;}
+
+.js  div{ width:100%; 
+		  clear:both; 
+		  margin-bottom:20px; 
+		  float:left;}
+
+.js div img{ float:left;
+	 		 margin-right:20px;}
+
+.msg>div{ padding:10px;}
+
+.bar{ border:#000 solid 1px;
+	  margin:20px; 
+	  clear:both; 
+	  background:url(../images/menu.jpg);
+	  color:red; 
+	  text-decoration:underline; 
+	  padding:5px;}
+
+
+
+.focus{ position:relative; 
+	    width:470px; 
+	    height:250px;  
+	    background-color: #C3CBE3; 
+        float: left;}
+
+.focus img{ width: 470px; 
+			height: 250px;}
+
+.focus .shadow .title{  width: 260px; 
+						height: 65px;
+						padding-left: 30px;
+						padding-top: 20px;}
+
+.focus .shadow .title a{ text-decoration:none; 
+						 color:#fff; 
+						 font-size:14px;
+						 font-weight:bolder;
+					     overflow:hidden; }
+
+.focus .btn{ position:absolute; 
+			 bottom:34px; 
+			 left:510px;
+			 overflow:hidden; zoom:1;}
+
+.focus .btn a{  position:relative; 
+			 	display:inline; 
+				 width:13px; 
+				height:13px;
+				border-radius:7px; 
+				margin:0 5px;
+				color:#B0B0B0;
+				font:12px/15px "\5B8B\4F53"; 
+				text-decoration:none; 
+				text-align:center; 
+				outline:0; 
+				float:left; 
+				background:#D9D9D9; }
+
+.focus .btn a:hover,.focus .btn a.current{  cursor:pointer;
+											background:#fc114a;}
+
+.focus .fPic{ position:absolute;
+			  left:0px;
+			  top:0px; }
+
+.focus .D1fBt{  overflow:hidden;
+				zoom:1;  
+				height:16px;
+				z-index:10;  }
+
+.focus .shadow{ width:100%; 
+	        	position:absolute;
+				bottom:0;
+				left:0px; z-index:10; 
+				height:80px; 
+				line-height: 80px;
+				background:rgba(0,0,0,0.6);    
+				filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9; 
+				display:block;  
+				text-align:left; }
+
+.focus .shadow a{ text-decoration:none; 
+				  color:#fff; 
+				  font-size:20px; 
+				  overflow:hidden;
+				  margin-left:10px; 
+				  font-family: "\5FAE\8F6F\96C5\9ED1";}
+
+.focus .fcon{ position:relative; 
+			  width:100%; 
+			  float:left;  
+			  display:none;
+	          background:#000;}
+
+.focus .fcon img{ display:block; }
+
+.focus .fbg{bottom:25px;
+			right:40px; 
+			position:absolute; 
+			height:21px; 
+			text-align:center; 
+			z-index: 200; }
+
+.focus .fbg div{margin:4px auto 0;overflow:hidden;zoom:1;height:14px;}
+
+.focus .D1fBt a{position:relative;
+	   			display:inline; 
+				width:12px; 
+				height:12px; 
+				border-radius:7px;
+				margin:0 5px;
+				color:#B0B0B0;
+				font:12px/15px "\5B8B\4F53";
+				text-decoration:none; 
+				text-align:center;
+				outline:0;
+				float:left; 
+				background:#D9D9D9; }
+
+.focus .D1fBt .current,.focus .D1fBt a:hover{background:#fc114a;}
+
+.focus .D1fBt img{display:none;}
+
+.focus .D1fBt i{display:none;
+				font-style:normal; }
+
+.focus .prev,.focus .next{position:absolute;
+						  width:40px;
+						  height:74px;
+						  background: url(../images/focus_btn.png) no-repeat;}
+
+.focus .prev{top: 50%;
+	         margin-top: -37px; left: 0;
+	         background-position:0 -74px; 
+	         cursor:pointer; } 
+
+.focus .next{top: 50%;
+			 margin-top: -37px; right: 0;  
+			 background-position:-40px -74px;  
+			 cursor:pointer;}
+
+.focus .prev:hover{  background-position:0 0; }
+
+.focus .next:hover{  background-position:-40px 0;}  
